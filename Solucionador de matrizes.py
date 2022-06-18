@@ -6,13 +6,13 @@ from Matrix3x3 import *
 def main():
     root = Tk()
     root.title("Solucionador de matrizes")
-    root.iconbitmap("icone.ico")
+    root.iconbitmap("./Imagens/icone.ico")
 
     label1 = Label(root, width=120, borderwidth=5, text="Se esse programa te ajudar, considere uma doação no pix: rbhs100@gmail.com . Qualquer quantia é de grande ajuda")
     label1.grid(row=0, column=0, columnspan=5)
     label2 = Label(root, width=120, borderwidth=5, text="Formato da equação/matriz: [Matriz dos resultados/fontes] = [Matriz 'das impedâncias' (a + linha + coluna)] [Matriz das incógnitas]")
     label2.grid(row=1, column=0, columnspan=5)
-    img = ImageTk.PhotoImage(Image.open("matriz_formato_2.jpg"))
+    img = ImageTk.PhotoImage(Image.open("./Imagens/matriz_formato_2.jpg"))
     panel = Label(root, image=img).grid(row=2, column=0, columnspan=15)
 
     class scanEntry:
