@@ -1,0 +1,22 @@
+Solucionador de matrizes, por Rafael Biazon, versão 1.0.1
+
+Se esse programa te ajudar, considere uma doação no pix: rbhs100@gmail.com
+Qualquer quantia tá de bom tamanho, sério.
+_________________________________
+_________________________________
+
+INSTRUÇÕES:
+1) Por não ser um programa profissional feito por uma empresa conhecida, é normal que o seu antivírus detecte o programa como vírus. Espere a análise e ele dirá que o programa é seguro. Se não quiser esperar, execute o programa como administrador.
+2) SEMPRE USE PONTOS E NÃO VÍRGULAS PARA SEPARAR OS NÚMEROS DECIMAIS.
+3) Se o botão de calcular não funcionar:
+	a) verifique o item 2 acima;
+	b) verifique se não tem nenhuma caixa de entrada com letras ao invés de números;
+4)Em caso de bugs: por favor mande um email para herpderp5521100@gmail.com com um recorte da tela e a descrição do erro. O contato no github é com o mesmo email (o nome de usuário é rafael-biazon) 
+
+LIMITAÇÕES (pretendo melhorar em versões futuras do programa):
+1) A interface gráfica não é a mais intuitiva nem a mais elegante possível.
+2) Quando o usuário muda o formato do número (de retangular para polar ou polar para retangular), a entrada na caixa se apaga e o usuário precisa digitar os números novamente. Não é algo que vai comprometer o uso do programa, mas é algo possivelmente irritante.
+3) Erros por parte do usuário não são notificados pelo programa. Se o usuário digitar letras em alguma caixa de entrada, ou separar decimais com vírgulas ao invés de pontos, o botão de "Calcular" não vai mostrar resultados errados nem avisar que houve erro na entrada, ele simplesmente não vai fazer nada. Por isso, esteja atento a esses detalhes quando for usar o programa.
+
+ATUALIZAÇÕES:
+1.0.1: Corrigido o problema da precisão excessiva das casas decimais. Foi definida a precisão de 8 casas decimais em cada número complexo envolvido nos cálculos, e isso aproxima o resultado do programa ao resultado de calculadoras físicas.
